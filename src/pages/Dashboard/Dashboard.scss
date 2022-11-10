@@ -1,0 +1,39 @@
+.dashboard{
+    padding: 0px 40px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+th{
+    border-top: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    text-align: left;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #545F7D;
+    cursor: pointer;
+}
+
+td {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #545F7D;
+  }
+
+ 

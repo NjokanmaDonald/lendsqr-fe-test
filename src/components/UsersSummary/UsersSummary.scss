@@ -1,0 +1,106 @@
+.usersSummary{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: calc(100vw - 358px);
+}
+.usersSummary__Title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.usersSummary__Title > h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #213F7D;
+    margin-bottom: 20px;
+}
+
+.usersSummary__Containers{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.usersSummary__Container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    margin: 10px;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding: 25px 40px 25px 25px;
+}
+
+.usersSummary__Container__UserIcon{
+    display: flex;
+    margin-bottom: 3px;
+    color: #DF18FF;
+    border: 0.2px solid #DF18FF;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.usersSummary__Container__ActiveIcon{
+    display: flex;
+    margin-bottom: 3px;
+    color: #5718FF;
+    border: 0.2px solid #5718FF;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+.usersSummary__Container__LoansIcon{
+    display: flex;
+    margin-bottom: 3px;
+    color: #F55F44;
+    border: 0.2px solid #F55F44;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+.usersSummary__Container__SavingsIcon{
+    display: flex;
+    margin-bottom: 3px;
+    color: #FF3366;
+    border: 0.2px solid #FF3366;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.usersSummary__Container__Text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #545F7D;
+}
+
+
+.usersSummary__Container__Number{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #213F7D;
+}
+
+@media (max-width: 900px) {
+    .usersSummary__Container{
+        margin: 10px;
+    }
+}

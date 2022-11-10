@@ -1,0 +1,12 @@
+
+.layout__Main{
+    display: flex;
+    width: calc(100vw - 260px);
+}
+
+.layout__Main__Sidebar{
+    display: flex;
+    position: sticky;
+    top: 76px;
+    height: calc(100vh - 136px);
+}

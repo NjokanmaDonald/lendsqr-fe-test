@@ -1,0 +1,136 @@
+.sidebarResponsive{
+    padding: 20px 40px 10px 40px;
+}
+
+.sidebarResponsive__MenuIcon{
+    color: #213F7D;
+    margin-bottom: 5px;
+}
+
+
+.sidebarResponsive1{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position: sticky;
+    top: 76px;
+    padding: 30px;
+    border-right: 1px solid black;
+    overflow-y: scroll;
+    background-color: rgb(100, 100, 100);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  }
+
+.sidebarResponsive__Content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    cursor: pointer;
+    height: 100%;
+}
+
+.sidebarResponsive__Head3__Content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.sidebarResponsive__Content:hover{
+    background-color:  #39CDCC;
+    padding: 4px;
+}
+
+.sidebarResponsive__Head1__Container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sidebarResponsive__Head1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFF;
+    margin-right: 5px;
+    
+}
+
+.sidebarResponsive__Head1Icon{
+    margin-right: 5px;
+    color: #FFF;
+}
+
+.sidebarResponsive__Head2__Container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.sidebarResponsive__Head2{        
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFF;
+    
+}
+
+.sidebarResponsive__Head2Icon{
+    margin-right: 5px;
+    color: #FFF;
+}
+
+.sidebarResponsive__Head3__Container{
+    margin-top: 10px;
+}
+
+.sidebarResponsive__Head3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    color: #FFF;
+    
+}
+
+.sidebarResponsive__Item{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFF;
+    margin: 2px 0;
+}
+
+.sidebarResponsive__Icon{
+    margin-right: 5px;
+    color: #FFF;
+}
+
+@media (max-width: 900px) {
+    .sidebar{
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .sidebarResponsive {
+        display: none;
+    }
+}
